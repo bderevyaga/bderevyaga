@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  server:
+    build: .
+    networks:
+      - server
+    volumes:
+      - server:/server
+volumes:
+  server:
+    name: server-volum
+networks:
+  server:
+    name: server-network
