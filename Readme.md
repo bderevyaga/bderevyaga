@@ -6,7 +6,7 @@
 - [ ] CFML
 - [ ] Clojure
 - [ ] COBOL
-- [ ] CoffeeScript
+- [x] CoffeeScript
 - [ ] CommonLisp
 - [ ] Coq
 - [x] C++

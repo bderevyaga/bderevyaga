@@ -41,6 +41,7 @@ g++ -o index index.cpp
 time ./index
 
 # 4999999950000000
+#
 # real    0m0.256s
 # user    0m0.253s
 # sys     0m0.002s
