@@ -2,14 +2,14 @@
 
 - [ ] Agda
 - [ ] BF
-- [ ] C
+- [x] C
 - [ ] CFML
 - [ ] Clojure
 - [ ] COBOL
 - [ ] CoffeeScript
 - [ ] CommonLisp
 - [ ] Coq
-- [ ] C++
+- [x] C++
 - [ ] Crystal
 - [ ] C#
 - [ ] D
