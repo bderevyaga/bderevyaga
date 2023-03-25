@@ -52,7 +52,7 @@
 - [x] Ruby
 - [ ] Rust
 - [ ] Scala
-- [ ] Shell
+- [x] Shell
 - [ ] Solidity
 - [ ] SQL
 - [ ] Swift
