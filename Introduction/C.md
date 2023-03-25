@@ -8,6 +8,7 @@ apt-get install build-essential
 ```
 
 ## Version
+
 ```bash
 gcc --version
 
@@ -27,7 +28,7 @@ int main() {
     for (int i = 0; i < 100000000; i++) {
         sum += i;
     }
-    printf("%lld", sum);
+    printf("%lld\n", sum);
     return 0;
 }
 ```
@@ -44,4 +45,3 @@ time ./index
 # user    0m0.253s
 # sys     0m0.001s
 ```
-

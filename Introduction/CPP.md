@@ -8,6 +8,7 @@ apt-get install build-essential
 ```
 
 ## Version
+
 ```bash
 g++ --version
 
@@ -29,7 +30,7 @@ int main() {
     for (int i = 0; i < 100000000; i++) {
         sum += i;
     }
-    cout << sum;
+    cout << sum << "\n";
     return 0;
 }
 ```
@@ -46,4 +47,3 @@ time ./index
 # user    0m0.253s
 # sys     0m0.002s
 ```
-

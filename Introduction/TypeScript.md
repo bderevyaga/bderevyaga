@@ -11,11 +11,14 @@ npm i -g ts-node typescript
 ```
 
 ## Version
+
 ```bash
 ts-node -v
+
 # v10.8.1
 
 tsc -v
+
 # Version 4.7.4
 ```
 
@@ -51,4 +54,3 @@ time node index.js
 # user    0m0.169s
 # sys     0m0.025s
 ```
-

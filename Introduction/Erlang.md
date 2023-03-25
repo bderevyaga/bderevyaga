@@ -11,6 +11,7 @@ cd .. && rm -fr otp_src_25.0.4*
 ```
 
 ## Version
+
 ```bash
 erl -version
 
@@ -21,14 +22,16 @@ erl -version
 
 ```erl
 -module(index).
--export([for/1,for/2,start/0]).
+-export([start/0]).
 
-for(I,Sum) when I == 0 -> io:fwrite("~w~n",[Sum]);
-for(I,Sum) when I > 0 -> for(I-1,Sum+I).
-for(I) when I > 0  -> for(I-1,I).
+sum(N, M, Acc) when N > M ->
+    Acc;
+sum(N, M, Acc) ->
+    sum(N + 1, M, Acc + N).
 
 start() -> 
-    for(99999999).
+    Sum = sum(0, 99999999, 0),
+    io:format("~w~n", [Sum]).
 ```
 
 ## Tests

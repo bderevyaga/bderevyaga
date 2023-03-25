@@ -9,6 +9,7 @@ curl -fsSL https://deno.land/install.sh | DENO_INSTALL=/usr/local sh
 ```
 
 ## Version
+
 ```bash
 deno -V
 
@@ -28,7 +29,7 @@ console.log(sum);
 ## Tests
 
 ```bash
-time deno run index.ts 
+time deno run index.ts
 
 # 4999999950000000
 # 
