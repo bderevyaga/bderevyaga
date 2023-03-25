@@ -49,7 +49,7 @@
 - [ ] Raku
 - [ ] Reason
 - [ ] RISC-V
-- [ ] Ruby
+- [x] Ruby
 - [ ] Rust
 - [ ] Scala
 - [ ] Shell
