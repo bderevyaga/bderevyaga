@@ -25,7 +25,7 @@ bash --version
 
 ## Code
 
-```sh
+```bash
 #!/bin/bash
 
 sum=0
