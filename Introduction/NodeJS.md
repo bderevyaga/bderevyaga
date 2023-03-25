@@ -12,15 +12,16 @@ apt-get install -y nodejs
 ## Version
 ```bash
 node -v
+
 # v18.4.0
 ```
 
 ## Code
 
 ```js
-let sum = 0
+let sum = 0;
 for (let i = 0; i < 100000000; i++) {
-    sum +=i
+    sum +=i;
 }
 console.log(sum);
 ```

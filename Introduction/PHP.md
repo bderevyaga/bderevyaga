@@ -15,6 +15,7 @@ cd .. && rm -fr php-8.1.7*
 
 ```bash
 php -v
+
 # PHP 8.1.7 (cli) (built: Jun 23 2022 21:39:53) (NTS)
 # Copyright (c) The PHP Group
 # Zend Engine v4.1.7, Copyright (c) Zend Technologies

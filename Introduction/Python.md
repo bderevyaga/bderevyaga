@@ -15,6 +15,7 @@ cd .. && rm -fr Python-3.10.5*
 
 ```bash
 python3 --version
+
 # Python 3.10.5
 ```
 

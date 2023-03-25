@@ -11,17 +11,18 @@ curl -fsSL https://deno.land/install.sh | DENO_INSTALL=/usr/local sh
 ## Version
 ```bash
 deno -V
+
 # deno 1.23.0
 ```
 
 ## Code
 
 ```ts
-let _sum: number = 0
+let sum: number = 0;
 for (let i = 0; i < 100000000; i++) {
-    _sum +=i
+    sum +=i;
 }
-console.log(_sum);
+console.log(sum);
 ```
 
 ## Tests

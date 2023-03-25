@@ -13,6 +13,7 @@ cd .. && rm -fr otp_src_25.0.4*
 ## Version
 ```bash
 erl -version
+
 # Erlang (SMP,ASYNC_THREADS) (BEAM) emulator version 13.0.4
 ```
 

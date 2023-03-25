@@ -16,6 +16,7 @@ export PATH=$PATH:/usr/local/go/bin
 
 ```bash
 go version
+
 # go version go1.18.3 linux/amd64
 ```
 
