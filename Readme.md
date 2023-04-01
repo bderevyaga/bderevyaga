@@ -37,7 +37,7 @@
 - [ ] Nim
 - [ ] Objective-C
 - [ ] OCaml
-- [ ] Pascal
+- [x] Pascal
 - [ ] Perl
 - [x] PHP
 - [ ] PowerShell
