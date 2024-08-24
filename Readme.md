@@ -38,7 +38,7 @@
 - [ ] Objective-C
 - [ ] OCaml
 - [x] Pascal
-- [ ] Perl
+- [x] Perl
 - [x] PHP
 - [ ] PowerShell
 - [ ] Prolog
