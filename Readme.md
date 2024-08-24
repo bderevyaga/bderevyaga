@@ -50,7 +50,7 @@
 - [ ] Reason
 - [ ] RISC-V
 - [x] Ruby
-- [ ] Rust
+- [x] Rust
 - [ ] Scala
 - [x] Shell
 - [ ] Solidity
