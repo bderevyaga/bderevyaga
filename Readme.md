@@ -51,7 +51,7 @@
 - [ ] RISC-V
 - [x] Ruby
 - [x] Rust
-- [ ] Scala
+- [x] Scala
 - [x] Shell
 - [ ] Solidity
 - [ ] SQL
