@@ -26,7 +26,7 @@
 - [ ] Haskell
 - [ ] Haxe
 - [ ] Idris
-- [ ] Java
+- [x] Java
 - [x] JavaScript
 - [ ] Julia
 - [ ] Kotlin
