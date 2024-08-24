@@ -19,11 +19,10 @@ nasm -v
 
 ```text
 section .data
-    result_msg db 'Result: ', 0
     newline db 10
 
 section .bss
-    sum resq 1            ; Variable to store the sum
+    sum resq 1              ; Variable to store the sum
 
 section .text
     global _start
@@ -39,13 +38,6 @@ _start:
     jne .loop               ; if not, repeat the loop
 
     mov [sum], rax          ; store the result in the variable sum
-
-    ; Output the result message
-    mov rax, 1              ; syscall: write
-    mov rdi, 1              ; file descriptor: stdout
-    mov rsi, result_msg     ; address of the message
-    mov rdx, 8              ; length of the message
-    syscall
 
     ; Convert the result to decimal format and output
     mov rax, [sum]
