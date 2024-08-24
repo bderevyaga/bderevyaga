@@ -33,7 +33,7 @@
 - [ ] λ Calculus
 - [ ] Lean
 - [ ] Lua
-- [ ] NASM
+- [x] NASM
 - [ ] Nim
 - [ ] Objective-C
 - [ ] OCaml
