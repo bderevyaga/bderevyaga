@@ -22,8 +22,8 @@
 - [ ] Fortran
 - [ ] F#
 - [x] [Go](./Introduction/Go.md)
-- [ ] Groovy
-- [ ] Haskell
+- [x] [Groovy](./Introduction/Groovy.md)
+- [x] [Haskell](./Introduction/Haskell.md)
 - [ ] Haxe
 - [ ] Idris
 - [x] [Java](./Introduction/Java.md)
