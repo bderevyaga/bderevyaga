@@ -4,7 +4,7 @@
 
 ```bash
 apt-get update
-apt-get install nasm build-essential
+apt-get install -y nasm build-essential
 ```
 
 ## Version
@@ -82,9 +82,9 @@ print_number:
 ## Tests
 
 ```bash
-nasm -f elf64 -o main.o main.asm
-ld -o main main.o
-time ./main
+nasm -f elf64 -o index.o index.asm
+ld -o index index.o
+time ./index
 
 # 4999999950000000
 #

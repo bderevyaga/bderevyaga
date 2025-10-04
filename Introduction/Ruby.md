@@ -4,7 +4,7 @@
 
 ```bash
 apt-get update
-apt-get install curl build-essential libyaml-dev
+apt-get install -y curl build-essential libyaml-dev
 curl -OL https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.1.tar.gz && tar -xf ruby-3.2.1.tar.gz && cd ./ruby-3.2.1
 ./configure && make && make install
 cd .. && rm -fr ruby-3.2.1*

@@ -3,9 +3,9 @@
 ## Install
 
 ```bash
-apt-get update
-apt-get install curl unzip
-curl -fsSL https://deno.land/install.sh | DENO_INSTALL=/usr/local sh
+apt-get update \
+    && apt-get install -y curl unzip \
+    && curl -fsSL https://deno.land/install.sh | DENO_INSTALL=/usr/local sh
 ```
 
 ## Version

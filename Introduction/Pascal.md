@@ -4,7 +4,7 @@
 
 ```bash
 apt-get update
-apt-get install fpc
+apt-get install -y fpc
 ```
 
 ## Version

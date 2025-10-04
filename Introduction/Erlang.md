@@ -3,11 +3,13 @@
 ## Install
 
 ```bash
-apt-get update
-apt-get install curl build-essential ncurses-dev
-curl -OL https://github.com/erlang/otp/releases/download/OTP-25.0.4/otp_src_25.0.4.tar.gz && tar -xf otp_src_25.0.4.tar.gz && cd ./otp_src_25.0.4
-./configure && make && make install
-cd .. && rm -fr otp_src_25.0.4*
+apt-get update \
+    && apt-get install -y curl build-essential ncurses-dev \
+    && curl -fsSL https://github.com/erlang/otp/releases/download/OTP-25.0.4/otp_src_25.0.4.tar.gz | tar -xz \
+    && ./otp_src_25.0.4/configure 
+    && make -C otp_src_25.0.4 -j"$(nproc)" \
+    && make -C otp_src_25.0.4 install \
+    && rm -fr otp_src_25.0.4*
 ```
 
 ## Version

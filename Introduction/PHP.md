@@ -3,12 +3,15 @@
 ## Install
 
 ```bash
-apt-get update
-apt-get install curl build-essential pkg-config libxml2-dev libsqlite3-dev
-curl -OL https://www.php.net/distributions/php-8.1.7.tar.gz && tar -xf  php-8.1.7.tar.gz && cd ./php-8.1.7
-./configure
-make && make install
-cd .. && rm -fr php-8.1.7*
+apt-get update \
+    && apt-get install -y curl build-essential pkg-config libxml2-dev libsqlite3-dev \
+    && curl -fsSL https://www.php.net/distributions/php-8.1.7.tar.gz | tar -xz \
+    && cd ./php-8.1.7 \
+    && ./configure \
+    && make \
+    && make install \
+    && cd .. \
+    && rm -fr php-8.1.7*
 ```
 
 ## Version

@@ -29,10 +29,10 @@
 - [x] Java
 - [x] JavaScript
 - [ ] Julia
-- [ ] Kotlin
+- [x] Kotlin
 - [ ] λ Calculus
 - [ ] Lean
-- [ ] Lua
+- [x] Lua
 - [x] NASM
 - [ ] Nim
 - [ ] Objective-C
@@ -55,6 +55,6 @@
 - [x] Shell
 - [ ] Solidity
 - [ ] SQL
-- [ ] Swift
+- [x] Swift
 - [x] TypeScript
 - [ ] VB

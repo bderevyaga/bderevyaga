@@ -4,7 +4,7 @@
 
 ```bash
 apt-get update
-apt-get install scala
+apt-get install -y scala
 ```
 
 ## Version

@@ -29,7 +29,7 @@ perl -v
 
 ## Code
 
-```text
+```pl
 my $sum = 0;
 
 for (my $i = 0; $i < 100_000_000; $i++) {
@@ -42,7 +42,7 @@ print "$sum\n";
 ## Tests
 
 ```bash
-time perl main.pl
+time perl index.pl
 
 # 4999999950000000
 #

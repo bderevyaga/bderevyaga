@@ -4,7 +4,7 @@
 
 ```bash
 apt-get update
-apt-get install curl build-essential
+apt-get install -y curl build-essential
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source $HOME/.cargo/env
 ```
@@ -32,8 +32,8 @@ fn main() {
 ## Tests
 
 ```bash
-rustc main.rs
-time ./main
+rustc index.rs
+time ./index
 
 # 4999999950000000
 #

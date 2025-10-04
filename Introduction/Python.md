@@ -4,7 +4,7 @@
 
 ```bash
 apt-get update
-apt-get install curl build-essential zlib1g-dev libssl-dev
+apt-get install -y curl build-essential zlib1g-dev libssl-dev
 curl -OL https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz && tar -xf Python-3.10.5.tgz && cd ./Python-3.10.5
 ./configure --enable-optimizations
 make && make install

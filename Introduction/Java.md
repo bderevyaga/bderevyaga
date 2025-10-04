@@ -4,7 +4,7 @@
 
 ```bash
 apt-get update
-apt-get install openjdk-21-jdk
+apt-get install -y openjdk-21-jdk
 ```
 
 ## Version
@@ -19,8 +19,8 @@ java -version
 
 ## Code
 
-```text
-public class main {
+```java
+public class index {
     public static void main(String[] args) {
         long sum = 0;
 
@@ -36,8 +36,8 @@ public class main {
 ## Tests
 
 ```bash
-javac main.java
-time java main
+javac index.java
+time java index
 
 # 4999999950000000
 #

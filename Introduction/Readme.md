@@ -33,12 +33,12 @@ networks:
 ## Running
 
 ```bash
-docker-compose up -d
-docker-compose exec server /bin/bash
+docker compose up -d
+docker compose exec server /bin/bash
 ```
 
 ## Cleaning
 
 ```bash
-docker-compose down
+docker compose down
 ```
