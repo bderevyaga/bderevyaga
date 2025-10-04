@@ -2,59 +2,59 @@
 
 - [ ] Agda
 - [ ] BF
-- [x] C
+- [x] [C](./Introduction/C.md)
 - [ ] CFML
 - [ ] Clojure
 - [ ] COBOL
-- [x] CoffeeScript
+- [x] [CoffeeScript](./Introduction/CoffeeScript.md)
 - [ ] CommonLisp
 - [ ] Coq
-- [x] C++
+- [x] [C++](./Introduction/CPP.md)
 - [ ] Crystal
 - [ ] C#
 - [ ] D
 - [ ] Dart
 - [ ] Elixir
 - [ ] Elm
-- [x] Erlang
+- [x] [Erlang](./Introduction/Erlang.md)
 - [ ] Factor
 - [ ] Forth
 - [ ] Fortran
 - [ ] F#
-- [x] Go
+- [x] [Go](./Introduction/Go.md)
 - [ ] Groovy
 - [ ] Haskell
 - [ ] Haxe
 - [ ] Idris
-- [x] Java
-- [x] JavaScript
+- [x] [Java](./Introduction/Java.md)
+- [x] [JavaScript](./Introduction/NodeJS.md)
 - [ ] Julia
-- [x] Kotlin
+- [x] [Kotlin](./Introduction/Kotlin.md)
 - [ ] λ Calculus
 - [ ] Lean
-- [x] Lua
-- [x] NASM
+- [ ] [Lua](./Introduction/Lua.md)
+- [x] [NASM](./Introduction/NASM.md)
 - [ ] Nim
 - [ ] Objective-C
 - [ ] OCaml
-- [x] Pascal
-- [x] Perl
-- [x] PHP
+- [x] [Pascal](./Introduction/Pascal.md)
+- [x] [Perl](./Introduction/Perl.md)
+- [x] [PHP](./Introduction/PHP.md)
 - [ ] PowerShell
 - [ ] Prolog
 - [ ] PureScript
-- [x] Python
+- [x] [Python](./Introduction/Python.md)
 - [ ] R
 - [ ] Racket
 - [ ] Raku
 - [ ] Reason
 - [ ] RISC-V
-- [x] Ruby
-- [x] Rust
-- [x] Scala
-- [x] Shell
+- [x] [Ruby](./Introduction/Ruby.md)
+- [x] [Rust](./Introduction/Rust.md)
+- [x] [Scala](./Introduction/Scala.md)
+- [x] [Shell](./Introduction/Bash.md)
 - [ ] Solidity
 - [ ] SQL
-- [x] Swift
-- [x] TypeScript
+- [ ] [Swift](./Introduction/Swift.md)
+- [x] [TypeScript](./Introduction/TypeScript.md)
 - [ ] VB
