@@ -3,14 +3,10 @@
 ## Install
 
 ```bash
-apt-get update
-apt-get install -y clang libicu-dev libatomic1 libcurl4-openssl-dev libxml2 pkg-config tzdata wget
-
-wget https://download.swift.org/swift-5.9.2-release/ubuntu2204/swift-5.9.2-RELEASE/swift-5.9.2-RELEASE-ubuntu22.04.tar.gz
-
-tar -xzf swift-5.9.2-RELEASE-ubuntu22.04.tar.gz
-mv swift-5.9.2-RELEASE-ubuntu22.04 /opt/swift-5.9.2
-rm swift-5.9.2-RELEASE-ubuntu22.04.tar.gz
+apt-get update && apt-get install -y curl clang libicu-dev libatomic1 libcurl4-openssl-dev libxml2 pkg-config tzdata && \
+curl -fsSL https://download.swift.org/swift-5.9.2-release/ubuntu2204/swift-5.9.2-RELEASE/swift-5.9.2-RELEASE-ubuntu22.04.tar.gz | tar -xz && \
+mv swift-5.9.2-RELEASE-ubuntu22.04 /opt/swift-5.9.2 && \
+rm -fr swift-5.9.2-RELEASE-ubuntu22.04* && \
 export PATH=/opt/swift-5.9.2/usr/bin:$PATH
 ```
 

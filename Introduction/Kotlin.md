@@ -3,8 +3,7 @@
 ## Install
 
 ```bash
-apt-get update
-apt-get install -y openjdk-21-jdk kotlin
+apt-get update && apt-get install -y openjdk-21-jdk kotlin
 ```
 
 ## Version

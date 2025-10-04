@@ -3,13 +3,15 @@
 ## Install
 
 ```bash
-apt-get update \
-  && apt-get install -y curl build-essential \
-  && curl -fsSL http://ftp.gnu.org/gnu/bash/bash-5.2.15.tar.gz | tar -xz \
-  && ./bash-5.2.15/configure \
-  && make -C bash-5.2.15 -j"$(nproc)" \
-  && make -C bash-5.2.15 install \
-  && rm -rf bash-5.2.15*
+apt-get update && apt-get install -y curl build-essential && \
+curl -fsSL http://ftp.gnu.org/gnu/bash/bash-5.2.15.tar.gz | tar -xz && \
+(
+    cd ./bash-5.2.15 && \
+    ./configure && \
+    make -j"$(nproc)" && \
+    make install
+) && \
+rm -fr bash-5.2.15*
 ```
 
 ## Version

@@ -3,8 +3,7 @@
 ## Install
 
 ```bash
-apt-get update
-apt-get install -y lua5.4
+apt-get update && apt-get install -y lua5.4
 ```
 
 ## Version

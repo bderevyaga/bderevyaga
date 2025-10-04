@@ -3,8 +3,7 @@
 ## Install
 
 ```bash
-apt-get update
-apt-get install -y fpc
+apt-get update && apt-get install -y fpc
 ```
 
 ## Version

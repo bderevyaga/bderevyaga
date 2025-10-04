@@ -3,11 +3,15 @@
 ## Install
 
 ```bash
-apt-get update
-apt-get install -y curl build-essential libyaml-dev
-curl -OL https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.1.tar.gz && tar -xf ruby-3.2.1.tar.gz && cd ./ruby-3.2.1
-./configure && make && make install
-cd .. && rm -fr ruby-3.2.1*
+apt-get update && apt-get install -y curl build-essential libyaml-dev && \
+curl -fsSL https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.1.tar.gz | tar -xz && \
+(
+    cd ./ruby-3.2.1 && \
+    ./configure && \
+    make -j"$(nproc)" && \
+    make install
+) && \
+rm -fr ruby-3.2.1*
 ```
 
 ## Version

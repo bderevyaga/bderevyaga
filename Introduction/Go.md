@@ -3,12 +3,8 @@
 ## Install
 
 ```bash
-apt-get update
-apt-get install -y curl
-curl -OL https://go.dev/dl/go1.18.3.linux-amd64.tar.gz
-rm -rf /usr/local/go
-tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz
-rm go1.18.3.linux-amd64.tar.gz
+apt-get update && apt-get install -y curl && \
+curl -fsSL https://go.dev/dl/go1.18.3.linux-amd64.tar.gz | tar -C /usr/local -xz && \
 export PATH=$PATH:/usr/local/go/bin
 ```
 

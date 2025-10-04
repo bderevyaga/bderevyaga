@@ -3,12 +3,15 @@
 ## Install
 
 ```bash
-apt-get update
-apt-get install -y curl build-essential zlib1g-dev libssl-dev
-curl -OL https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz && tar -xf Python-3.10.5.tgz && cd ./Python-3.10.5
-./configure --enable-optimizations
-make && make install
-cd .. && rm -fr Python-3.10.5*
+apt-get update && apt-get install -y curl build-essential zlib1g-dev libssl-dev && \
+curl -fsSL https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz | tar -xz && \
+(
+    cd ./Python-3.10.5 && \
+    ./configure && \
+    make -j"$(nproc)" && \
+    make install
+) && \
+rm -fr Python-3.10.5*
 ```
 
 ## Version

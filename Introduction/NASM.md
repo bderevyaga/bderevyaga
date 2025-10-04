@@ -3,8 +3,7 @@
 ## Install
 
 ```bash
-apt-get update
-apt-get install -y nasm build-essential
+apt-get update && apt-get install -y nasm build-essential
 ```
 
 ## Version
