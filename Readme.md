@@ -5,7 +5,7 @@
 - [x] [C](./Introduction/C.md)
 - [ ] CFML
 - [ ] Clojure
-- [ ] COBOL
+- [x] [COBOL](./Introduction/COBOL.md)
 - [x] [CoffeeScript](./Introduction/CoffeeScript.md)
 - [ ] CommonLisp
 - [ ] Coq
@@ -14,7 +14,7 @@
 - [ ] C#
 - [ ] D
 - [ ] Dart
-- [ ] Elixir
+- [x] [Elixir](./Introduction/Elixir.md)
 - [ ] Elm
 - [x] [Erlang](./Introduction/Erlang.md)
 - [ ] Factor
@@ -54,7 +54,7 @@
 - [x] [Scala](./Introduction/Scala.md)
 - [x] [Shell](./Introduction/Bash.md)
 - [ ] Solidity
-- [ ] SQL
+- [x] [SQL](./Introduction/SQL.md)
 - [x] [Swift](./Introduction/Swift.md)
 - [x] [TypeScript](./Introduction/TypeScript.md)
 - [ ] VB
