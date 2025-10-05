@@ -32,7 +32,7 @@
 - [x] [Kotlin](./Introduction/Kotlin.md)
 - [ ] λ Calculus
 - [ ] Lean
-- [ ] [Lua](./Introduction/Lua.md)
+- [x] [Lua](./Introduction/Lua.md)
 - [x] [NASM](./Introduction/NASM.md)
 - [ ] Nim
 - [ ] Objective-C
@@ -55,6 +55,6 @@
 - [x] [Shell](./Introduction/Bash.md)
 - [ ] Solidity
 - [ ] SQL
-- [ ] [Swift](./Introduction/Swift.md)
+- [x] [Swift](./Introduction/Swift.md)
 - [x] [TypeScript](./Introduction/TypeScript.md)
 - [ ] VB
