@@ -1,6 +1,6 @@
 ## Mathematical task
 
-$$\sum_{n = 0}^{10^8} n$$
+$$\sum_{n = 0}^{10^8 - 1} n$$
 
 ## Settings
 
